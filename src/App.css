@@ -1,0 +1,22 @@
+.hero {
+    height: 250px;
+}
+.hero img {
+    height: 250px;
+    width: 100%;
+}
+
+.nav-item {
+    margin: 15px 55px;
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+.body {
+    background-image: url(./images/background.jpg);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}

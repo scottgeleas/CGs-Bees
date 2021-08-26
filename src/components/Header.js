@@ -1,16 +1,15 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+// import banner from '../images/banner.jpg';
 
 function Header(props) {
     return (
         <>
             <div className='hero'>
                 {/* <img
-                    src='https://via.placeholder.com/468x60
-                    C/O https://placeholder.com/'
+                    src={banner}
                     alt='placeholder'
                 /> */}
-                <h1>THIS IS HEADER</h1>
             </div>
             <Navigation setCurrentPage={props.setCurrentPage} />
         </>

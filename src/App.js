@@ -25,7 +25,7 @@ function App() {
     return (
         <div>
             <Header setCurrentPage={setCurrentPage} />
-            {renderPage()}
+            <div className='body'>{renderPage()}</div>
             <Footer />
         </div>
     );

@@ -3,12 +3,12 @@ import React from 'react';
 function Navigation(props) {
     return (
         <>
-            <nav class='navbar navbar-expand-lg navbar-light bg-light'>
-                <div class='collapse navbar-collapse' id='navbarNav'>
-                    <ul class='navbar-nav'>
-                        <li class='nav-item active'>
+            <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+                <div className='collapse navbar-collapse' id='navbarNav'>
+                    <ul className='navbar-nav me-auto'>
+                        <li className='nav-item'>
                             <a
-                                class='nav-link'
+                                className='nav-link'
                                 onClick={() => {
                                     props.setCurrentPage('About');
                                 }}
@@ -16,9 +16,9 @@ function Navigation(props) {
                                 About
                             </a>
                         </li>
-                        <li class='nav-item'>
+                        <li className='nav-item'>
                             <a
-                                class='nav-link'
+                                className='nav-link'
                                 onClick={() => {
                                     props.setCurrentPage('LipBalm');
                                 }}
@@ -26,9 +26,9 @@ function Navigation(props) {
                                 Lip Balm Flavors
                             </a>
                         </li>
-                        <li class='nav-item'>
+                        <li className='nav-item'>
                             <a
-                                class='nav-link'
+                                className='nav-link'
                                 onClick={() => {
                                     props.setCurrentPage('Contact');
                                 }}
@@ -36,9 +36,9 @@ function Navigation(props) {
                                 Contact
                             </a>
                         </li>
-                        <li class='nav-item'>
+                        <li className='nav-item'>
                             <a
-                                class='nav-link'
+                                className='nav-link'
                                 onClick={() => {
                                     props.setCurrentPage('Gallery');
                                 }}
