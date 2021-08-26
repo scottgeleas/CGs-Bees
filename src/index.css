@@ -1,6 +1,6 @@
-body {
+#root {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Crafty Girls', cursive;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
